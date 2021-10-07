@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 13px;
+}
+
+.nav-item {
+  margin-left: 15px;
+}

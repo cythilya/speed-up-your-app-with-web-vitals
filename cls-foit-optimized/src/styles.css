@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'NotoSansTC-Regular';
+  src: url('https://cythilya.github.io/public/web-vitals/Noto_Sans_TC/NotoSansTC-Regular.otf')
+    format('opentype');
+  font-display: swap;
+}
+
+.App {
+  font-family: 'NotoSansTC-Regular';
+}

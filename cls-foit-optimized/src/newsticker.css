@@ -1,0 +1,32 @@
+.ui-newsticker {
+  border-radius: 10px;
+  background: #ddd;
+  color: #402726;
+  cursor: default;
+  font-family: 'NotoSansTC-Regular';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15.6px;
+  padding: 0 10px 0 10px;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  will-change: transform;
+}
+
+.ui-newsticker:hover {
+  background: #eee;
+}
+
+.ui-newsticker-list {
+  position: absolute;
+  overflow: hidden;
+  transition-property: transform;
+  transition-timing-function: ease;
+}
+
+.ui-newsticker-item {
+  height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+}
